@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B026601325EB268E00B0A926 /* CoffeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B026601225EB268E00B0A926 /* CoffeeApp.swift */; };
+		B026601325EB268E00B0A926 /* OrderCoffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = B026601225EB268E00B0A926 /* OrderCoffee.swift */; };
 		B026601525EB268E00B0A926 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B026601425EB268E00B0A926 /* ContentView.swift */; };
 		B026601725EB268F00B0A926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B026601625EB268F00B0A926 /* Assets.xcassets */; };
 		B026601A25EB268F00B0A926 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B026601925EB268F00B0A926 /* Preview Assets.xcassets */; };
@@ -15,8 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B026600F25EB268E00B0A926 /* Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B026601225EB268E00B0A926 /* CoffeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeApp.swift; sourceTree = "<group>"; };
+		B026600F25EB268E00B0A926 /* OrderCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B026601225EB268E00B0A926 /* OrderCoffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCoffee.swift; sourceTree = "<group>"; };
 		B026601425EB268E00B0A926 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B026601625EB268F00B0A926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B026601925EB268F00B0A926 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		B026600625EB268E00B0A926 = {
 			isa = PBXGroup;
 			children = (
-				B026601125EB268E00B0A926 /* Coffee */,
+				B026601125EB268E00B0A926 /* OrderCoffee */,
 				B026601025EB268E00B0A926 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,22 +46,22 @@
 		B026601025EB268E00B0A926 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B026600F25EB268E00B0A926 /* Coffee.app */,
+				B026600F25EB268E00B0A926 /* OrderCoffee.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B026601125EB268E00B0A926 /* Coffee */ = {
+		B026601125EB268E00B0A926 /* OrderCoffee */ = {
 			isa = PBXGroup;
 			children = (
 				B0A353DC25EDD42800D53B25 /* Font */,
-				B026601225EB268E00B0A926 /* CoffeeApp.swift */,
+				B026601225EB268E00B0A926 /* OrderCoffee.swift */,
 				B026601425EB268E00B0A926 /* ContentView.swift */,
 				B026601625EB268F00B0A926 /* Assets.xcassets */,
 				B026601B25EB268F00B0A926 /* Info.plist */,
 				B026601825EB268F00B0A926 /* Preview Content */,
 			);
-			path = Coffee;
+			path = OrderCoffee;
 			sourceTree = "<group>";
 		};
 		B026601825EB268F00B0A926 /* Preview Content */ = {
@@ -84,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B026600E25EB268E00B0A926 /* Coffee */ = {
+		B026600E25EB268E00B0A926 /* OrderCoffee */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B026601E25EB268F00B0A926 /* Build configuration list for PBXNativeTarget "Coffee" */;
+			buildConfigurationList = B026601E25EB268F00B0A926 /* Build configuration list for PBXNativeTarget "OrderCoffee" */;
 			buildPhases = (
 				B026600B25EB268E00B0A926 /* Sources */,
 				B026600C25EB268E00B0A926 /* Frameworks */,
@@ -96,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = Coffee;
+			name = OrderCoffee;
 			productName = Coffee;
-			productReference = B026600F25EB268E00B0A926 /* Coffee.app */;
+			productReference = B026600F25EB268E00B0A926 /* OrderCoffee.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B026600A25EB268E00B0A926 /* Build configuration list for PBXProject "Coffee" */;
+			buildConfigurationList = B026600A25EB268E00B0A926 /* Build configuration list for PBXProject "OrderCoffee" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,7 +128,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B026600E25EB268E00B0A926 /* Coffee */,
+				B026600E25EB268E00B0A926 /* OrderCoffee */,
 			);
 		};
 /* End PBXProject section */
@@ -152,7 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B026601525EB268E00B0A926 /* ContentView.swift in Sources */,
-				B026601325EB268E00B0A926 /* CoffeeApp.swift in Sources */,
+				B026601325EB268E00B0A926 /* OrderCoffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,16 +281,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Coffee/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"OrderCoffee/Preview Content\"";
 				DEVELOPMENT_TEAM = VF745ART6A;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Coffee/Info.plist;
+				INFOPLIST_FILE = OrderCoffee/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcus.Coffee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcus.OrderCoffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,16 +303,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Coffee/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"OrderCoffee/Preview Content\"";
 				DEVELOPMENT_TEAM = VF745ART6A;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Coffee/Info.plist;
+				INFOPLIST_FILE = OrderCoffee/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcus.Coffee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcus.OrderCoffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B026600A25EB268E00B0A926 /* Build configuration list for PBXProject "Coffee" */ = {
+		B026600A25EB268E00B0A926 /* Build configuration list for PBXProject "OrderCoffee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B026601C25EB268F00B0A926 /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B026601E25EB268F00B0A926 /* Build configuration list for PBXNativeTarget "Coffee" */ = {
+		B026601E25EB268F00B0A926 /* Build configuration list for PBXNativeTarget "OrderCoffee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B026601F25EB268F00B0A926 /* Debug */,
