@@ -11,6 +11,7 @@
 		B026601525EB268E00B0A926 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B026601425EB268E00B0A926 /* ContentView.swift */; };
 		B026601725EB268F00B0A926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B026601625EB268F00B0A926 /* Assets.xcassets */; };
 		B026601A25EB268F00B0A926 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B026601925EB268F00B0A926 /* Preview Assets.xcassets */; };
+		B0A353E325EDD66B00D53B25 /* Avenir Next.ttc in Resources */ = {isa = PBXBuildFile; fileRef = B0A353E225EDD66B00D53B25 /* Avenir Next.ttc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		B026601625EB268F00B0A926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B026601925EB268F00B0A926 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B026601B25EB268F00B0A926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0A353E225EDD66B00D53B25 /* Avenir Next.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir Next.ttc"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		B026601125EB268E00B0A926 /* Coffee */ = {
 			isa = PBXGroup;
 			children = (
+				B0A353DC25EDD42800D53B25 /* Font */,
 				B026601225EB268E00B0A926 /* CoffeeApp.swift */,
 				B026601425EB268E00B0A926 /* ContentView.swift */,
 				B026601625EB268F00B0A926 /* Assets.xcassets */,
@@ -68,6 +71,15 @@
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
+		};
+		B0A353DC25EDD42800D53B25 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				B0A353E225EDD66B00D53B25 /* Avenir Next.ttc */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 /* End PBXGroup section */
 
@@ -126,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A353E325EDD66B00D53B25 /* Avenir Next.ttc in Resources */,
 				B026601A25EB268F00B0A926 /* Preview Assets.xcassets in Resources */,
 				B026601725EB268F00B0A926 /* Assets.xcassets in Resources */,
 			);
